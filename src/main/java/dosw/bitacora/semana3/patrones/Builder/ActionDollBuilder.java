@@ -1,3 +1,28 @@
+//4) Builder
+//¿Qué es?
+//Facilita la construcción paso a paso de objetos complejos o con muchos parámetros opcionales.
+//        ¿Para qué problemas sirve?
+//Evitar constructores con demasiados parámetros; mejorar legibilidad e inmutabilidad.
+//
+//
+//class Usuario {
+//    String nombre; String email; String telefono;
+//    Usuario(Builder b) { nombre = b.nombre; email = b.email; telefono = b.telefono; }
+//    static class Builder {
+//        String nombre, email, telefono;
+//        Builder(String nombre, String email) { this.nombre = nombre; this.email = email; }
+//        Builder telefono(String t) { this.telefono = t; return this; }
+//        Usuario build() { return new Usuario(this); }
+//    }
+//}
+//public class BuilderDemo {
+//    public static void main(String[] args) {
+//        Usuario u = new Usuario.Builder("Camilo", "camilo@mail.com").telefono("301123123").build();
+//        System.out.println(u.nombre);
+//    }
+//}
+
+
 package dosw.bitacora.semana3.patrones.Builder;
 
 public class ActionDollBuilder extends ToyBuilder {

@@ -1,3 +1,26 @@
+//2) Adapter
+//¿Qué es?
+//Convierte la interfaz de una clase en otra esperada por el cliente, sin modificar código existente.
+//¿Para qué problemas sirve?
+//Integración de código legado o de terceros; migraciones graduales donde las interfaces no coinciden.
+//
+//Ejemplo en Java
+//interface USB_C { void conectar(); }
+//class MicroUSB { void conectarMicroUSB() { System.out.println("MicroUSB conectado"); } }
+//class MicroUSBToUSBCAdapter implements USB_C {
+//    private MicroUSB device;
+//    MicroUSBToUSBCAdapter(MicroUSB d) { device = d; }
+//    public void conectar() { device.conectarMicroUSB(); }
+//}
+//public class AdapterDemo {
+//    public static void main(String[] args) {
+//        USB_C cable = new MicroUSBToUSBCAdapter(new MicroUSB());
+//        cable.conectar();
+//    }
+//}
+//
+
+
 package dosw.bitacora.semana3.patrones.Adapter;
 
 public class FastChargerAdapter implements FuelService {

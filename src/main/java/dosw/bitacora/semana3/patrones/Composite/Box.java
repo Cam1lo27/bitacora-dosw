@@ -1,3 +1,33 @@
+//7) Composite
+//¿Qué es?
+//Permite tratar objetos individuales y compuestos de forma uniforme en estructuras árbol.
+//        ¿Para qué problemas sirve?
+//Menús, carpetas/archivos, escenas gráficas; operaciones recursivas.
+//
+//
+//import java.util.*;
+//interface Componente { void mostrar(); }
+//class Archivo implements Componente {
+//    public void mostrar(){ System.out.println("Archivo"); }
+//}
+//class Carpeta implements Componente {
+//    List<Componente> hijos = new ArrayList<>();
+//    void add(Componente c){ hijos.add(c); }
+//    public void mostrar(){
+//        System.out.println("Carpeta:");
+//        for (Componente c : hijos) c.mostrar();
+//    }
+//}
+//public class CompositeDemo {
+//    public static void main(String[] args) {
+//        Carpeta root = new Carpeta();
+//        root.add(new Archivo());
+//        root.add(new Archivo());
+//        root.mostrar();
+//    }
+//}
+
+
 package dosw.bitacora.semana3.patrones.Composite;
 
 import java.util.ArrayList;
