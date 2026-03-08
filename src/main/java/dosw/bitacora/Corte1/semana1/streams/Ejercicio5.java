@@ -51,7 +51,7 @@
 // .sorted()
 // .toList();
 
-package dosw.bitacora.semana1.streams;
+package dosw.bitacora.Corte1.semana1.streams;
 
 import java.util.List;
 

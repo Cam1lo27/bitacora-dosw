@@ -1,4 +1,4 @@
-package dosw.bitacora.semana1.streams;
+package dosw.bitacora.Corte1.semana1.streams;
 
 public class Transaction {
 

@@ -1,7 +1,7 @@
 //Dada una lista de numeros enteros, necesitamos
 //obtener una nueva lista solo con los numeros pares
 //mayores a diez.
-package dosw.bitacora.semana1.streams;
+package dosw.bitacora.Corte1.semana1.streams;
 import java.util.List;
 public class Ejercicio1 {
 

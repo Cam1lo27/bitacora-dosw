@@ -6,7 +6,7 @@
 //  - Obtener la cantidad total de palabras
 //    resultantes.
 
-package dosw.bitacora.semana1.streams;
+package dosw.bitacora.Corte1.semana1.streams;
 import java.util.List;
 
 public class Ejercicio2 {

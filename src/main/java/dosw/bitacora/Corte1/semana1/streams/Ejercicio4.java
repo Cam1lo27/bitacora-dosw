@@ -2,7 +2,7 @@
 // anteriores, filtrar las personas mayores de edad y obtener
 // sus nombres. (NUEVO)
 
-package dosw.bitacora.semana1.streams;
+package dosw.bitacora.Corte1.semana1.streams;
 
 import java.util.List;
 
