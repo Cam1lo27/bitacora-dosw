@@ -1,3 +1,3 @@
 # Diagrama Patrón De Software Iterator
 
-![Iterator.png](../../../../../../../Images/Iterator.png)
+![Iterator.png](../../../../../../../../../Images/Iterator.png)

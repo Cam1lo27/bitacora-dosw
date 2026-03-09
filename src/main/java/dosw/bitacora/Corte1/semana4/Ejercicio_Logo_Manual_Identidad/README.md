@@ -2,7 +2,7 @@
 
 ## Lakers Jersey DOSW Edition
 
-![Logo.png](../../../../../../../Images/Logo.png)
+![Logo.png](../../../../../../../../Images/Images/Logo.png)
 
 **Eslogan del producto**
 - "Juego con alma, gano con corazón"

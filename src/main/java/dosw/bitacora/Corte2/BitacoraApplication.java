@@ -1,4 +1,4 @@
-package dosw.bitacora;
+package dosw.bitacora.Corte2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,3 +1,2 @@
 # DIAGRAMA EJERCICIO PATRÓN COMPOSITE
-
-![Texto alternativo](/src/Images/Diagrama.png)
+![Diagrama.png](../../../../../../../../../Images/Diagrama.png)
