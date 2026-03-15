@@ -1,4 +1,4 @@
-package dosw.bitacora.semana2.patrones.Factory;
+package dosw.bitacora.Corte1.semana2.patrones.Factory;
 
 public class PushNotification implements Notification {
     @Override
